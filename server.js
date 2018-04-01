@@ -17,4 +17,8 @@ app.get('/', function homepage(req, res) {
 
 app.get('/api', controllers.api.index);
 
+app.get('/api/profile', controllers.data.profile);
+
+app.get('/api/movies', controllers.movies.index);
+
 app.listen(3000);

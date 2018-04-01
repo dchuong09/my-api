@@ -1,3 +1,5 @@
 module.exports = {
-	api: require('./apiController.js')
+	api: require('./apiController.js'),
+	data: require('./profileController.js'),
+	movies: require('./movieController.js')
 }
