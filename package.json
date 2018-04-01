@@ -1,0 +1,24 @@
+{
+  "name": "my-api",
+  "version": "1.0.0",
+  "description": "my-api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchuong09/my-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dchuong09/my-api/issues"
+  },
+  "homepage": "https://github.com/dchuong09/my-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.12"
+  }
+}
